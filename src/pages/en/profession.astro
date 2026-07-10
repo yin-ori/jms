@@ -19,12 +19,12 @@ const description = 'Professional background, qualifications and projects';
         <h1 class="text-2xl font-medium text-warm-900 dark:text-dark-900">Profession</h1>
       </div>
 
-      <!-- Professional Experience -->
+      <!-- Translation & Localization -->
       <section class="mb-12">
         <h2 class="text-lg font-medium text-warm-900 dark:text-dark-900 mb-6 pb-2 border-b border-warm-300 dark:border-dark-300">
-          Professional Experience
+          Translation &amp; Localization
         </h2>
-        <div class="space-y-6">
+        <div class="space-y-4">
           <div class="experience-item">
             <div class="flex justify-between items-start">
               <p class="font-medium text-warm-800 dark:text-dark-800">DeepL</p>
@@ -59,6 +59,29 @@ const description = 'Professional background, qualifications and projects';
               <span class="text-warm-500 dark:text-dark-500 text-sm">2022</span>
             </div>
             <p class="text-warm-600 dark:text-dark-600 text-sm">Translation of video content on VR in gaming (DE→JP)</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Software Development -->
+      <section class="mb-12">
+        <h2 class="text-lg font-medium text-warm-900 dark:text-dark-900 mb-6 pb-2 border-b border-warm-300 dark:border-dark-300">
+          Software Development
+        </h2>
+        <div class="space-y-4">
+          <div class="experience-item">
+            <div class="flex justify-between items-start">
+              <p class="font-medium text-warm-800 dark:text-dark-800">IT Company</p>
+              <span class="text-warm-500 dark:text-dark-500 text-sm">since 2024</span>
+            </div>
+            <p class="text-warm-600 dark:text-dark-600 text-sm">Product Owner, Project Manager &amp; AI Delivery Architect</p>
+          </div>
+          <div class="experience-item">
+            <div class="flex justify-between items-start">
+              <p class="font-medium text-warm-800 dark:text-dark-800">E-Commerce</p>
+              <span class="text-warm-500 dark:text-dark-500 text-sm">2016–2024</span>
+            </div>
+            <p class="text-warm-600 dark:text-dark-600 text-sm">Product Owner</p>
           </div>
         </div>
       </section>
@@ -172,16 +195,11 @@ const description = 'Professional background, qualifications and projects';
   }
 
   .experience-item {
-    padding-bottom: 1.5rem;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    padding-left: 1rem;
+    border-left: 2px solid rgba(191, 174, 220, 0.3);
   }
 
   :global(.dark) .experience-item {
-    border-bottom-color: rgba(255, 255, 255, 0.05);
-  }
-
-  .experience-item:last-child {
-    border-bottom: none;
-    padding-bottom: 0;
+    border-left-color: rgba(125, 107, 162, 0.3);
   }
 </style>
