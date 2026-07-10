@@ -14,6 +14,7 @@ export const translations = {
   de: {
     'nav.home': 'Home',
     'nav.about': 'Über mich',
+    'nav.profession': 'Berufliches',
     'nav.research_page': 'Forschung',
     'nav.services': 'Angebot',
     'nav.translation': 'Übersetzung',
@@ -40,6 +41,7 @@ export const translations = {
   en: {
     'nav.home': 'Home',
     'nav.about': 'About',
+    'nav.profession': 'Profession',
     'nav.research_page': 'Research',
     'nav.services': 'Services',
     'nav.translation': 'Translation',
@@ -66,6 +68,7 @@ export const translations = {
   ja: {
     'nav.home': 'ホーム',
     'nav.about': '私について',
+    'nav.profession': '経歴',
     'nav.research_page': '研究',
     'nav.services': 'サービス',
     'nav.translation': '翻訳',

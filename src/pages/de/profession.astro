@@ -24,13 +24,20 @@ const description = 'Beruflicher Werdegang, Qualifikationen und Projekte';
         <h2 class="text-lg font-medium text-warm-900 dark:text-dark-900 mb-6 pb-2 border-b border-warm-300 dark:border-dark-300">
           Beruflicher Werdegang
         </h2>
-        <div class="space-y-6">
+        <div class="space-y-4">
           <div class="experience-item">
             <div class="flex justify-between items-start">
               <p class="font-medium text-warm-800 dark:text-dark-800">DeepL</p>
               <span class="text-warm-500 dark:text-dark-500 text-sm">2025</span>
             </div>
             <p class="text-warm-600 dark:text-dark-600 text-sm">Lokalisierung und Evaluierung von Übersetzungen (JP→DE)</p>
+          </div>
+          <div class="experience-item">
+            <div class="flex justify-between items-start">
+              <p class="font-medium text-warm-800 dark:text-dark-800">Software-Entwicklung</p>
+              <span class="text-warm-500 dark:text-dark-500 text-sm">seit 2024</span>
+            </div>
+            <p class="text-warm-600 dark:text-dark-600 text-sm">Product Owner, Project Manager &amp; AI Delivery Architect</p>
           </div>
           <div class="experience-item">
             <div class="flex justify-between items-start">
@@ -45,6 +52,13 @@ const description = 'Beruflicher Werdegang, Qualifikationen und Projekte';
               <span class="text-warm-500 dark:text-dark-500 text-sm">seit 2024</span>
             </div>
             <p class="text-warm-600 dark:text-dark-600 text-sm">Manga-, Webseiten- und App-Lokalisierung (EN→DE)</p>
+          </div>
+          <div class="experience-item">
+            <div class="flex justify-between items-start">
+              <p class="font-medium text-warm-800 dark:text-dark-800">E-Commerce</p>
+              <span class="text-warm-500 dark:text-dark-500 text-sm">2016–2024</span>
+            </div>
+            <p class="text-warm-600 dark:text-dark-600 text-sm">Product Owner</p>
           </div>
           <div class="experience-item">
             <div class="flex justify-between items-start">
@@ -172,16 +186,11 @@ const description = 'Beruflicher Werdegang, Qualifikationen und Projekte';
   }
 
   .experience-item {
-    padding-bottom: 1.5rem;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    padding-left: 1rem;
+    border-left: 2px solid rgba(191, 174, 220, 0.3);
   }
 
   :global(.dark) .experience-item {
-    border-bottom-color: rgba(255, 255, 255, 0.05);
-  }
-
-  .experience-item:last-child {
-    border-bottom: none;
-    padding-bottom: 0;
+    border-left-color: rgba(125, 107, 162, 0.3);
   }
 </style>
