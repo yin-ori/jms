@@ -23,6 +23,7 @@ const blogCollection = defineCollection({
     author: z.string().default('JM Sugawara'),
     image: z.string().optional(),
     imageAlt: z.string().optional(),
+    draft: z.boolean().optional().default(false),
   }),
 });
 

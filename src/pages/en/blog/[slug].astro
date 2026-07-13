@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content';
 import BlogArticleTemplate from '@/components/templates/BlogArticleTemplate.astro';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('blog', ({ data }) => data.locale === 'en');
+  const posts = await getCollection('blog', ({ data }) => data.locale === 'en' && !data.draft);
   return posts.map(post => ({
     params: { slug: post.slug.replace('en/', '') },
     props: { post },
@@ -32,7 +32,7 @@ const formattedDate = new Date(publishedDate).toLocaleDateString('en-US', {
     modifiedTime: modifiedDate,
     author: author,
   }}
-  backLinkText="← Blog"
+  backLinkText="← Articles"
   backLinkHref="/en/blog"
   publishedDate={formattedDate}
   readTime={readTime}

@@ -7,4 +7,5 @@ publishedDate: '2024-10-01'
 modifiedDate: '2024-10-01'
 readTime: '5 Min. Lesezeit'
 author: 'JM Sugawara'
+draft: true
 ---
