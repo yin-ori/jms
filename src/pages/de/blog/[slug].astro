@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content';
 import BlogArticleTemplate from '@/components/templates/BlogArticleTemplate.astro';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('blog', ({ data }) => data.locale === 'de');
+  const posts = await getCollection('blog', ({ data }) => data.locale === 'de' && !data.draft);
   return posts.map(post => ({
     params: { slug: post.slug.replace('de/', '') },
     props: { post },

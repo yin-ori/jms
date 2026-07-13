@@ -6,7 +6,7 @@ import { useTranslations } from '@/utils/i18n';
 const locale = 'en';
 const t = useTranslations(locale);
 
-const allPosts = await getCollection('blog', ({ data }) => data.locale === locale);
+const allPosts = await getCollection('blog', ({ data }) => data.locale === locale && !data.draft);
 const posts = allPosts.sort((a, b) =>
   new Date(b.data.publishedDate).getTime() - new Date(a.data.publishedDate).getTime()
 );
@@ -22,10 +22,7 @@ const posts = allPosts.sort((a, b) =>
     <div class="max-w-3xl mx-auto px-6 py-16">
       <!-- Simple header -->
       <div class="mb-16">
-        <h1 class="text-2xl font-medium text-warm-900 dark:text-dark-900 mb-6">Blog</h1>
-        <p class="text-warm-700 dark:text-dark-700 leading-relaxed max-w-2xl">
-          Insights into translation, language, and the art of intercultural communication.
-        </p>
+        <h1 class="text-2xl font-medium text-warm-900 dark:text-dark-900 mb-6">Articles</h1>
       </div>
 
       <!-- Blog posts list -->
