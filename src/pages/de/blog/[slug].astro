@@ -12,7 +12,7 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { Content } = await post.render();
-const { title, description, keywords, publishedDate, modifiedDate, readTime, author } = post.data;
+const { title, description, keywords, publishedDate, modifiedDate, readTime, author, image, imageAlt } = post.data;
 
 const formattedDate = new Date(publishedDate).toLocaleDateString('de-DE', {
   year: 'numeric',
@@ -36,6 +36,8 @@ const formattedDate = new Date(publishedDate).toLocaleDateString('de-DE', {
   backLinkHref="/de/blog"
   publishedDate={formattedDate}
   readTime={readTime}
+  image={image}
+  imageAlt={imageAlt}
 >
   <Content />
 </BlogArticleTemplate>

@@ -7,6 +7,8 @@ publishedDate: '2023-11-23'
 modifiedDate: '2023-11-23'
 readTime: '7 Min. Lesezeit'
 author: 'JM Sugawara'
+image: '../_images/remarkable-ipad.png'
+imageAlt: 'reMarkable und iPad nebeneinander'
 ---
 
 Die Idee eines Studiums, das ohne Papier auskommt, ist heute sicher verbreiteter als noch zu Beginn meines Studiums. Besondere Aufmerksamkeit erregte in den letzten Jahren das „Paper Tablet" [reMarkable](https://remarkable.com/) durch sein Versprechen, so nah wie möglich an das Schreibgefühl auf Papier anzuknüpfen. Bereits im Besitz eines iPads (Mini) liebäugelte ich immer wieder mit dem reMarkable und entschloss mich letztendlich dazu, das Paper Tablet zu testen.

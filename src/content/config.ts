@@ -12,7 +12,7 @@ const researchCollection = defineCollection({
 
 const blogCollection = defineCollection({
   type: 'content',
-  schema: z.object({
+  schema: ({ image }) => z.object({
     title: z.string(),
     description: z.string(),
     locale: z.enum(['de', 'en', 'ja']),
@@ -21,7 +21,7 @@ const blogCollection = defineCollection({
     modifiedDate: z.string(),
     readTime: z.string(),
     author: z.string().default('JM Sugawara'),
-    image: z.string().optional(),
+    image: image().optional(),
     imageAlt: z.string().optional(),
     draft: z.boolean().optional().default(false),
   }),

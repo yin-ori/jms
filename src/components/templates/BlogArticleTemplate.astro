@@ -1,4 +1,6 @@
 ---
+import type { ImageMetadata } from 'astro';
+import { Image } from 'astro:assets';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import type { Locale } from '@/utils/i18n';
 
@@ -17,6 +19,8 @@ export interface Props {
   backLinkHref: string;
   publishedDate: string;
   readTime: string;
+  image?: ImageMetadata;
+  imageAlt?: string;
   ctaText?: string;
   ctaLinkText?: string;
   ctaLinkHref?: string;
@@ -33,6 +37,8 @@ const {
   backLinkHref,
   publishedDate,
   readTime,
+  image,
+  imageAlt,
   ctaText,
   ctaLinkText,
   ctaLinkHref,
@@ -69,6 +75,12 @@ const {
           <span>{readTime}</span>
         </div>
       </header>
+
+      {image && (
+        <div class="relative overflow-hidden rounded-sm mb-12 bg-warm-200 dark:bg-dark-200">
+          <Image src={image} alt={imageAlt || title} class="w-full h-auto" />
+        </div>
+      )}
 
       <!-- Article content -->
       <article class="prose prose-warm dark:prose-dark max-w-none">

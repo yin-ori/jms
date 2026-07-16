@@ -1,5 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { useTranslations } from '@/utils/i18n';
 
@@ -34,7 +35,7 @@ const posts = allPosts.sort((a, b) =>
               <a href={`/en/blog/${slug}`} class="block">
                 {post.data.image && (
                   <div class="relative overflow-hidden rounded-sm mb-5 aspect-video bg-warm-200 dark:bg-dark-200">
-                    <img
+                    <Image
                       src={post.data.image}
                       alt={post.data.imageAlt || post.data.title}
                       loading="lazy"

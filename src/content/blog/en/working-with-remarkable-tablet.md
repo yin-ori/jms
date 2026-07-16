@@ -7,6 +7,8 @@ publishedDate: '2023-11-23'
 modifiedDate: '2023-11-23'
 readTime: '7 min read'
 author: 'JM Sugawara'
+image: '../_images/remarkable-ipad.png'
+imageAlt: 'reMarkable and iPad side by side'
 ---
 
 The idea of a paperless course of study is certainly more widespread today than it was when I began my studies. In recent years, the "paper tablet" [reMarkable](https://remarkable.com/) has attracted particular attention with its promise of coming as close as possible to the feeling of writing on paper. Already owning an iPad (Mini), I kept eyeing the reMarkable and eventually decided to give the paper tablet a try.
