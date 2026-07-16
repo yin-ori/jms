@@ -45,15 +45,15 @@ const description = t('about.description');
       </p>
 
       <p>
-        Two experiences that continue to shape me to this day arose from encounters with two extraordinary women:
+        Two experiences that continue to shape my life in Japan to this day arose from encounters with extraordinary women:
       </p>
 
       <p>
-        During my studies, I had the opportunity to meet one of the last survivors of the atomic bombing of Hiroshima and to speak with her in the course of an interview. Her testimony was translated <a href="https://www.global-peace.go.jp/en/taikenki/en_taikenki_syousai.php?gbID=2190&amp;dt=260716095306" target="_blank" rel="noopener" class="text-warm-900 dark:text-dark-900 hover:text-warm-700 dark:hover:text-dark-700 transition-colors underline underline-offset-4 font-medium">here</a>.
+        <span class="num-initial" aria-hidden="true">1</span>During my studies, in 2019 I had the opportunity to meet one of the last survivors of the atomic bombing of Hiroshima and to speak with her in the course of an interview. Her testimony was translated <a href="https://www.global-peace.go.jp/en/taikenki/en_taikenki_syousai.php?gbID=2190&amp;dt=260716095306" target="_blank" rel="noopener" class="text-warm-900 dark:text-dark-900 hover:text-warm-700 dark:hover:text-dark-700 transition-colors underline underline-offset-4 font-medium">here</a>.
       </p>
 
       <p>
-        One winter, a Japanese palliative care patient lent me her personal haiku collection, which became for me an emblem of beauty in the fleetingness of existence, and whose transcript I still keep to this day. One of her poems can be found further down on this page.
+        <span class="num-initial" aria-hidden="true">2</span>One winter, a Japanese palliative care patient also lent me her personal haiku collection, which became for me an emblem of beauty in the fleetingness of existence, and whose transcript I still keep to this day. One of her poems can be found further down on this page.
       </p>
 
       <p class="pt-8 border-t border-warm-300 dark:border-dark-300">
@@ -74,3 +74,20 @@ const description = t('about.description');
   </div>
 </div>
 </BaseLayout>
+
+<style>
+  .num-initial {
+    float: left;
+    font-family: 'Lora', Georgia, serif;
+    font-size: 2.375rem;
+    line-height: 1;
+    padding: 0.04em 0.22em 0 0;
+    color: #7d6ba2;
+    opacity: 0.55;
+    font-weight: 500;
+  }
+
+  :global(.dark) .num-initial {
+    color: #bfaedc;
+  }
+</style>

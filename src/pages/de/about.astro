@@ -45,15 +45,15 @@ const description = t('about.description');
       </p>
 
       <p>
-        Zwei Ereignisse, die mich bis heute prägen, entstanden durch Begegnungen mit zwei außergewöhnlichen Frauen:
+        Zwei Ereignisse, die mein Leben in Japan bis heute prägen, entstanden durch Begegnungen mit außergewöhnlichen Frauen:
       </p>
 
       <p>
-        Im Zuge meines Studiums hatte ich die Gelegenheit, eine der letzten Überlebenden des Atombombenabwurfs auf Hiroshima kennenzulernen und im Zuge eines Interviews mit ihr ins Gespräch zu treten. Ihr Zeitzeugenbericht wurde <a href="https://www.global-peace.go.jp/en/taikenki/en_taikenki_syousai.php?gbID=2190&amp;dt=260716095306" target="_blank" rel="noopener" class="text-warm-900 dark:text-dark-900 hover:text-warm-700 dark:hover:text-dark-700 transition-colors underline underline-offset-4 font-medium">hier</a> übersetzt.
+        <span class="num-initial" aria-hidden="true">1</span>Im Zuge meines Studiums hatte ich 2019 die Gelegenheit, eine der letzten Überlebenden des Atombombenabwurfs auf Hiroshima kennenzulernen und im Zuge eines Interviews mit ihr ins Gespräch zu treten. Ihr Zeitzeugenbericht wurde <a href="https://www.global-peace.go.jp/en/taikenki/en_taikenki_syousai.php?gbID=2190&amp;dt=260716095306" target="_blank" rel="noopener" class="text-warm-900 dark:text-dark-900 hover:text-warm-700 dark:hover:text-dark-700 transition-colors underline underline-offset-4 font-medium">hier</a> übersetzt.
       </p>
 
       <p>
-        Eines Winters lieh mir eine japanische Palliativpatientin ihre persönliche Haiku-Sammlung, die für mich zum Sinnbild der Schönheit in der Flüchtigkeit des Daseins wurde und deren Abschrift ich bis heute bewahre. Eines ihrer Gedichte findet sich weiter unten auf dieser Seite.
+        <span class="num-initial" aria-hidden="true">2</span>Eines Winters lieh mir außerdem eine japanische Palliativpatientin ihre persönliche Haiku-Sammlung, die für mich zum Sinnbild der Schönheit in der Flüchtigkeit des Daseins wurde und deren Abschrift ich bis heute bewahre. Eines ihrer Gedichte findet sich weiter unten auf dieser Seite.
       </p>
 
       <p class="pt-8 border-t border-warm-300 dark:border-dark-300">
@@ -74,3 +74,20 @@ const description = t('about.description');
   </div>
 </div>
 </BaseLayout>
+
+<style>
+  .num-initial {
+    float: left;
+    font-family: 'Lora', Georgia, serif;
+    font-size: 2.375rem;
+    line-height: 1;
+    padding: 0.04em 0.22em 0 0;
+    color: #7d6ba2;
+    opacity: 0.55;
+    font-weight: 500;
+  }
+
+  :global(.dark) .num-initial {
+    color: #bfaedc;
+  }
+</style>
