@@ -4,8 +4,8 @@ on:
   push:
     branches: [main]
   schedule:
-    # Täglich neu bauen, damit die Lesen-Seite frische Goodreads-Daten zeigt
-    - cron: '0 3 * * *'
+    # Täglich um Mitternacht JST neu bauen, damit die Lesen-Seite frische Goodreads-Daten zeigt
+    - cron: '0 15 * * *'
   workflow_dispatch:
 
 jobs:
