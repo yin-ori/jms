@@ -39,34 +39,6 @@ export function generatePersonSchema() {
   };
 }
 
-// Generate structured data for Professional Service
-export function generateProfessionalServiceSchema() {
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'ProfessionalService',
-    name: `${SITE_CONFIG.name} Translation Services`,
-    description: 'Professional translation and proofreading services for literary and academic texts',
-    url: SITE_CONFIG.url,
-    serviceType: ['Translation', 'Proofreading', 'Literary Translation', 'Academic Translation'],
-    areaServed: {
-      '@type': 'Country',
-      name: ['Germany', 'Japan'],
-    },
-    availableLanguage: [
-      {
-        '@type': 'Language',
-        name: 'German',
-        alternateName: 'de',
-      },
-      {
-        '@type': 'Language',
-        name: 'Japanese',
-        alternateName: 'ja',
-      },
-    ],
-  };
-}
-
 // Generate hreflang links
 export function generateHreflangLinks(currentPath: string) {
   return [

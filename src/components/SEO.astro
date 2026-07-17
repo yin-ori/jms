@@ -2,7 +2,6 @@
 import type { SEOProps } from '@/utils/seo';
 import {
   generatePersonSchema,
-  generateProfessionalServiceSchema,
   generateHreflangLinks,
   generateOpenGraphTags,
   generateTwitterCardTags
@@ -18,7 +17,6 @@ const currentPath = removeLocalePrefix(Astro.url.pathname);
 
 // Generate structured data
 const personSchema = generatePersonSchema();
-const serviceSchema = generateProfessionalServiceSchema();
 
 // Generate hreflang links
 const hreflangLinks = generateHreflangLinks(currentPath);
@@ -67,7 +65,6 @@ const canonicalUrl = `https://jmsugawara.com${locale === 'de' ? '' : `/${locale}
 
 <!-- Structured Data -->
 <script type="application/ld+json" set:html={JSON.stringify(personSchema)} />
-<script type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
 
 <!-- Article Structured Data (if article) -->
 {article && (
