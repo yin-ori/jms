@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(npm run build:*)",
-      "WebFetch(domain:jmsugawara.com)",
-      "WebFetch(domain:orcid.org)"
-    ]
-  }
-}
