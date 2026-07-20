@@ -48,6 +48,22 @@ nie stagen.
 - Externe Links: `target="_blank" rel="noopener"`.
 - Interne Text-Links: gleiche CSS-Klassen wie bestehende Links derselben Seite.
 - Keine Dopplung von Eintraegen zwischen Sektionen (z. B. Profession-Kategorien).
+- Parallele Eintraege einer Liste/Sektion folgen demselben Muster: gleiche
+  Bestandteile in gleicher Form bei jedem Eintrag (z. B. Institution immer MIT
+  Land — „Universität Bonn, Deutschland" wie „Tohoku University, Japan" —,
+  Annotationen einheitlich formatiert, Datumsangaben im gleichen Format).
+  Ein Eintrag, der ein Feld weglaesst, das seine Geschwister haben, ist ein
+  Fehler — auch wenn er unveraendert blieb: beim Pruefen einer geaenderten
+  Sektion immer die GANZE Sektion auf Einheitlichkeit lesen, nicht nur die
+  geaenderten Zeilen.
+- Wird ein Fakt geaendert (Institutionsname, Abschlussnote, Jahreszahl,
+  Bezeichnung), site-weit greppen (`grep -rn` ueber `src/`), ob derselbe Fakt
+  noch anderswo steht — auch in Datenmodulen (`src/data/**`), nicht nur in
+  Seiten. Alle Vorkommen zusammen aktualisieren oder bewusst begruenden, warum
+  sie abweichen. Der akademische Werdegang hat genau EINE Quelle:
+  `src/data/research.ts` (Profession- und Research-Seiten rendern daraus) —
+  neue Duplikate solcher Listen in Seitenmarkup nicht einfuehren, sondern in
+  ein Datenmodul heben.
 - Geaenderte `i18n.ts`-Keys fuer `de` und `en` beide gepflegt.
 
 **5. Veraltetes/Totes**

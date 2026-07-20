@@ -65,11 +65,11 @@ export const researchData: Record<Locale, ResearchData> = {
     },
     moreInfoText: 'Eine vollständige Übersicht über meine Forschungsaktivitäten:',
     academicCareer: [
-      { title: 'Promotion', note: 'fortlaufend', institution: 'Universität Bonn' },
-      { title: 'Doctoral Course', note: 'online', institution: 'Universität Tromsø, Norwegen' },
-      { title: 'Master of Arts', note: 'ausgezeichnet', institution: 'Universität Bonn' },
+      { title: 'Promotion', note: 'fortlaufend', institution: 'Universität Bonn, Deutschland' },
+      { title: 'Doctoral Course', note: 'bestanden', institution: 'Universität Tromsø, Norwegen' },
+      { title: 'Master of Arts', note: 'ausgezeichnet', institution: 'Universität Bonn, Deutschland' },
       { title: 'Special Research Student', institution: 'Tohoku University, Japan' },
-      { title: 'Bachelor of Arts', institution: 'Universität Bonn' },
+      { title: 'Bachelor of Arts', institution: 'Universität Bonn, Deutschland' },
     ],
     researchFocus: [
       { title: 'Betrachtungen textueller Emotionen im Zuge von Erdbeben in der Tôhoku-Region', subtitle: 'seit 2022' },
@@ -122,11 +122,11 @@ export const researchData: Record<Locale, ResearchData> = {
     },
     moreInfoText: 'A complete overview of my research activities:',
     academicCareer: [
-      { title: 'PhD', note: 'ongoing', institution: 'University of Bonn' },
-      { title: 'Doctoral Course', note: 'online', institution: 'UiT The Arctic University of Norway, Tromsø' },
-      { title: 'Master of Arts', note: 'with distinction', institution: 'University of Bonn' },
+      { title: 'Doctorate', note: 'ongoing', institution: 'University of Bonn, Germany' },
+      { title: 'Doctoral Course', note: 'passed', institution: 'University of Tromsø, Norway' },
+      { title: 'Master of Arts', note: 'with distinction', institution: 'University of Bonn, Germany' },
       { title: 'Special Research Student', institution: 'Tohoku University, Japan' },
-      { title: 'Bachelor of Arts', institution: 'University of Bonn' },
+      { title: 'Bachelor of Arts', institution: 'University of Bonn, Germany' },
     ],
     researchFocus: [
       { title: 'Observations on textual emotions in the context of earthquakes in the Tōhoku region', subtitle: 'since 2022' },
