@@ -46,6 +46,11 @@ nie stagen.
   Kurven, niemals deutsche — gerade Anfuehrungszeichen in DE-Markdown sind also
   ein Fehler.)
 - Externe Links: `target="_blank" rel="noopener"`.
+- Japanische Umschrift in eigenen Texten durchgehend mit Zirkumflex
+  (Tôhoku, bunpô, Tsûshi no hôhô), nie mit Makron. AUSNAHME: bibliografische
+  Angaben — Titel, Verlagsnamen, Herausgebernamen — bleiben exakt so, wie sie
+  publiziert wurden (dort steht Makron: Kantō, Tōkyō, Itō). Eigennamen von
+  Institutionen ebenfalls in ihrer offiziellen Schreibung (Tohoku University).
 - Interne Text-Links: gleiche CSS-Klassen wie bestehende Links derselben Seite.
 - Keine Dopplung von Eintraegen zwischen Sektionen (z. B. Profession-Kategorien).
 - Parallele Eintraege einer Liste/Sektion folgen demselben Muster: gleiche

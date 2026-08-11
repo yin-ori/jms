@@ -43,7 +43,7 @@ ISBN: 978-3-946114-94-9 · [Verlagsseite](https://www.ostasien-verlag.de/reihen/
 - **2019:** Übersetzung von Zeugenaussagen der Atombombenüberlebenden Frau Hisako Kimura (NET-GTAS Global Peace & Universität Bonn) (Japanisch↔︎Deutsch)
 - **2019:** Übersetzung agrarwissenschaftlicher Fachtexte zu *amacha* und *ajisai* (Unterstützung eines Promotionsprojekts der Landwirtschaftlichen Fakultät der Universität Bonn) (Japanisch→Deutsch)
 - **2019:** "Tosa Nikki": Eine Übersetzungsanalyse der ersten drei Tage des Tagebuchs von Tosa (unpubliziert)
-- **2019:** Übersetzung aus dem Werk "Tsūshi no hōhō" (通史の方法) im Original von Miyachi Masato (unpubliziert)
+- **2019:** Übersetzung aus dem Werk "Tsûshi no hôhô" (通史の方法) im Original von Miyachi Masato (unpubliziert)
 
 ## Weitere Informationen
 

@@ -7,7 +7,7 @@ keywords: ['research', 'Japanese studies', 'linguistics', 'translation', 'cognit
 
 ## Research Areas
 
-- **since 2022:** Reflections on textual emotions in the context of earthquakes in the Tohoku region
+- **since 2022:** Reflections on textual emotions in the context of earthquakes in the Tôhoku region
 - **2022:** 'Corona disaster' (*korona-ka*) during TOKYO2020 (published)
 - **2021:** Conceptual semantic change using the example of *ka* (and the neologism 'Corona disaster') (Master's thesis)
 - **2019–2020:** Translation of testimonies and interviews of atomic bomb survivor Mrs. Kimura (NET-GTAS Global Peace & University of Bonn)
@@ -43,7 +43,7 @@ ISBN: 978-3-946114-94-9 · [Publisher page](https://www.ostasien-verlag.de/reihe
 - **2019:** Translation of testimonies of atomic bomb survivor Mrs. Hisako Kimura (NET-GTAS Global Peace & University of Bonn) (Japanese ↔ German)
 - **2019:** Translation of agricultural scientific texts on *amacha* and *ajisai* (supporting a doctoral project at the Faculty of Agriculture, University of Bonn) (Japanese to German)
 - **2019:** "Tosa Nikki": A translation analysis of the first three days of the Tosa diary (unpublished)
-- **2019:** Translation from the work "Tsūshi no hōhō" (通史の方法) originally by Miyachi Masato (unpublished)
+- **2019:** Translation from the work "Tsûshi no hôhô" (通史の方法) originally by Miyachi Masato (unpublished)
 
 ## Further Information
 

@@ -107,7 +107,7 @@ export const researchData: Record<Locale, ResearchData> = {
       { title: 'Zeugenaussagen der Atombombenüberlebenden Frau Hisako Kimura', subtitle: 'NET-GTAS Global Peace & Universität Bonn · JP↔DE', year: '2019' },
       { title: 'Agrarwissenschaftliche Fachtexte zu amacha und ajisai', subtitle: 'Promotionsprojekt, Landwirtschaftliche Fakultät Universität Bonn · JP→DE', year: '2019' },
       { title: '"Tosa Nikki": Übersetzungsanalyse der ersten drei Tage', subtitle: 'unpubliziert', year: '2019' },
-      { title: 'Übersetzung aus "Tsūshi no hōhō" (通史の方法)', subtitle: 'Miyachi Masato · unpubliziert', year: '2019' },
+      { title: 'Übersetzung aus "Tsûshi no hôhô" (通史の方法)', subtitle: 'Miyachi Masato · unpubliziert', year: '2019' },
     ],
   },
   en: {
@@ -129,7 +129,7 @@ export const researchData: Record<Locale, ResearchData> = {
       { title: 'Bachelor of Arts', institution: 'University of Bonn, Germany' },
     ],
     researchFocus: [
-      { title: 'Observations on textual emotions in the context of earthquakes in the Tōhoku region', subtitle: 'since 2022' },
+      { title: 'Reflections on textual emotions in the context of earthquakes in the Tôhoku region', subtitle: 'since 2022' },
       { title: "'Corona Disaster' (korona-ka) during TOKYO2020", subtitle: '2022 · published' },
       { title: 'Conceptual semantic change using the example of ka', subtitle: '2021 · Master thesis' },
       { title: 'Translation of eyewitness accounts of atomic bomb survivor Mrs. Kimura', subtitle: '2019–2020 · NET-GTAS Global Peace & University of Bonn' },
@@ -164,7 +164,7 @@ export const researchData: Record<Locale, ResearchData> = {
       { title: 'Testimonies of atomic bomb survivor Mrs. Hisako Kimura', subtitle: 'NET-GTAS Global Peace & University of Bonn · JP↔DE', year: '2019' },
       { title: 'Agricultural science texts on amacha and ajisai', subtitle: 'PhD project, Faculty of Agriculture, University of Bonn · JP→DE', year: '2019' },
       { title: '"Tosa Nikki": Translation analysis of the first three days', subtitle: 'unpublished', year: '2019' },
-      { title: 'Translation from "Tsūshi no hōhō" (通史の方法)', subtitle: 'Miyachi Masato · unpublished', year: '2019' },
+      { title: 'Translation from "Tsûshi no hôhô" (通史の方法)', subtitle: 'Miyachi Masato · unpublished', year: '2019' },
     ],
   },
 };
