@@ -1,61 +1,17 @@
 ---
-import DiagonalSplitLanding from '@/components/DiagonalSplitLanding.astro';
-import SEO from '@/components/SEO.astro';
-
-const locale = 'de';
-const title = 'JM Sugawara';
-const description = 'Japanologie, Übersetzung & interkulturelle Brücken';
+// Sprach-Einstieg: leitet auf die Über-mich-Seite weiter.
+// Bewusst als Meta-Refresh statt Astro.redirect(): das i18n-Routing entfernt
+// dort das Locale-Praefix und landet auf der falschen Seite.
+export const prerender = true;
+const target = `${import.meta.env.BASE_URL.replace(/\/$/, '')}/de/about`;
 ---
-
-<!doctype html>
-<html lang={locale}>
+<!DOCTYPE html>
+<html lang="de">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="generator" content={Astro.generator} />
-
-    <SEO
-      title={title}
-      description={description}
-      locale={locale}
-      keywords={['Japanologie', 'Übersetzung', 'Deutsch', 'Japanisch', 'interkulturell', 'Forschung']}
-    />
-
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=Noto+Sans+JP:wght@400;500&family=Source+Sans+3:wght@400;500&display=swap" rel="stylesheet">
-    <style>
-      html, body {
-        margin: 0;
-        padding: 0;
-        height: 100%;
-      }
-    </style>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content={`0;url=${target}`} />
+    <meta name="robots" content="noindex" />
+    <link rel="canonical" href={target} />
   </head>
-  <body style="background-color: #faf8f5; margin: 0;" class="dark:bg-dark-50">
-    <DiagonalSplitLanding locale={locale} />
-
-    <script is:inline>
-      // Theme initialization
-      const theme = (() => {
-        if (typeof localStorage !== 'undefined' && localStorage.getItem('theme')) {
-          return localStorage.getItem('theme');
-        }
-        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-          return 'dark';
-        }
-        return 'light';
-      })();
-
-      if (theme === 'dark') {
-        document.documentElement.classList.add('dark');
-      } else {
-        document.documentElement.classList.remove('dark');
-      }
-
-      window.localStorage.setItem('theme', theme);
-    </script>
-  </body>
+  <body></body>
 </html>

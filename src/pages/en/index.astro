@@ -1,3 +1,17 @@
 ---
-return Astro.redirect('/en/research', 302);
+// Language entry point: forwards to the About page.
+// Deliberately a meta refresh instead of Astro.redirect(): i18n routing strips
+// the locale prefix there and lands on the wrong page.
+export const prerender = true;
+const target = `${import.meta.env.BASE_URL.replace(/\/$/, '')}/en/about`;
 ---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content={`0;url=${target}`} />
+    <meta name="robots" content="noindex" />
+    <link rel="canonical" href={target} />
+  </head>
+  <body></body>
+</html>

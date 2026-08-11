@@ -30,8 +30,6 @@ export const translations = {
     'contact.description': 'Nehmen Sie Kontakt mit mir auf',
     'blog.title': 'Artikel',
     'blog.description': 'Einblicke in die Welt der Übersetzung und Sprache',
-    'landing.academia': 'Academia',
-    'landing.profession': 'Profession',
   },
   en: {
     'nav.home': 'Home',
@@ -52,8 +50,6 @@ export const translations = {
     'contact.description': 'Get in touch with me',
     'blog.title': 'Articles',
     'blog.description': 'Insights into the world of translation and language',
-    'landing.academia': 'Academia',
-    'landing.profession': 'Profession',
   },
   ja: {
     'nav.home': 'ホーム',
@@ -74,8 +70,6 @@ export const translations = {
     'contact.description': 'お気軽にお問い合わせください',
     'blog.title': '記事',
     'blog.description': '翻訳と言語の世界への洞察',
-    'landing.academia': 'Academia',
-    'landing.profession': 'Profession',
   },
 } as const;
 
