@@ -1,9 +1,7 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
-import { getResearchData } from '@/data/research';
 
 const locale = 'en';
-const academicCareer = getResearchData(locale).academicCareer;
 const title = 'Profession';
 const description = 'Professional background, qualifications and projects';
 ---
@@ -128,35 +126,21 @@ const description = 'Professional background, qualifications and projects';
         </div>
       </section>
 
-      <!-- Academic Background -->
-      <section class="mb-12">
-        <h2 class="text-lg font-medium text-warm-900 dark:text-dark-900 mb-6 pb-2 border-b border-warm-300 dark:border-dark-300">
-          Academic Background
-        </h2>
-        <div class="space-y-4">
-          {academicCareer.map((item) => (
-            <div class="qualification-item">
-              <p class="font-medium text-warm-800 dark:text-dark-800">{item.title}{item.note && <span class="font-normal text-warm-500 dark:text-dark-500 text-sm italic ml-1">({item.note})</span>}</p>
-              <p class="text-warm-600 dark:text-dark-600 text-sm">{item.institution}</p>
-            </div>
-          ))}
-        </div>
-      </section>
+      <!-- The academic background lives on the research page -->
+      <div class="pt-8 border-t border-warm-300 dark:border-dark-300">
+        <p class="text-warm-600 dark:text-dark-600 text-sm">
+          My academic background, talks and publications can be found under <a
+            href="/en/research"
+            class="underline underline-offset-2 hover:text-hover-light dark:hover:text-hover-dark transition-colors"
+          >Research</a>.
+        </p>
+      </div>
 
     </div>
   </div>
 </BaseLayout>
 
 <style>
-  .qualification-item {
-    padding-left: 1rem;
-    border-left: 2px solid rgba(191, 174, 220, 0.3);
-  }
-
-  :global(.dark) .qualification-item {
-    border-left-color: rgba(125, 107, 162, 0.3);
-  }
-
   .language-tag {
     padding: 0.375rem 0.875rem;
     background: rgba(191, 174, 220, 0.1);
