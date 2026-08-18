@@ -52,7 +52,7 @@ const toggleId = `dark-mode-toggle-${uniqueId}`;
   </svg>
 </button>
 
-<script define:vars={{ toggleId }}>
+<script is:inline define:vars={{ toggleId }}>
   function setTheme(theme) {
     if (theme === 'dark') {
       document.documentElement.classList.add('dark');

@@ -24,6 +24,9 @@ const blogCollection = defineCollection({
     image: image().optional(),
     imageAlt: z.string().optional(),
     draft: z.boolean().optional().default(false),
+    // Gebaut und ueber den direkten Link erreichbar, aber nicht in der
+    // Artikeluebersicht, nicht in der Sitemap und mit noindex ausgeliefert.
+    unlisted: z.boolean().optional().default(false),
   }),
 });
 

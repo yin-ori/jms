@@ -7,7 +7,7 @@ import { useTranslations } from '@/utils/i18n';
 const locale = 'en';
 const t = useTranslations(locale);
 
-const allPosts = await getCollection('blog', ({ data }) => data.locale === locale && !data.draft);
+const allPosts = await getCollection('blog', ({ data }) => data.locale === locale && !data.draft && !data.unlisted);
 const posts = allPosts.sort((a, b) =>
   new Date(b.data.publishedDate).getTime() - new Date(a.data.publishedDate).getTime()
 );

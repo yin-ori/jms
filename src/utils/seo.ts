@@ -12,6 +12,15 @@ export interface SEOProps {
     modifiedTime?: string;
     author?: string;
   };
+  /** Seite von Suchmaschinen fernhalten (ungelistete Artikel). */
+  noindex?: boolean;
+  /**
+   * hreflang-Verweise auf das jeweils andere Sprachpendant ausgeben.
+   * Auf `false` setzen, wo der Pfad nicht in beiden Sprachen identisch ist
+   * (Blog-Artikel haben je Sprache eigene Slugs) — ein falscher hreflang
+   * schadet mehr als ein fehlender.
+   */
+  hreflang?: boolean;
 }
 
 // Generate structured data for Person
@@ -19,7 +28,7 @@ export function generatePersonSchema() {
   return {
     '@context': 'https://schema.org',
     '@type': 'Person',
-    name: `${SITE_CONFIG.name} Professional`,
+    name: SITE_CONFIG.name,
     jobTitle: 'Translator and Proofreader',
     description: 'Professional translator and proofreader specializing in German-Japanese literary and academic texts',
     url: SITE_CONFIG.url,
@@ -40,11 +49,12 @@ export function generatePersonSchema() {
 }
 
 // Generate hreflang links
+// `currentPath` ist der Pfad ohne Sprachpraefix; jede Sprache liegt unter /<locale>/.
 export function generateHreflangLinks(currentPath: string) {
   return [
-    { hreflang: 'de', href: `${SITE_CONFIG.url}${currentPath}` },
-    { hreflang: 'ja', href: `${SITE_CONFIG.url}/ja${currentPath}` },
-    { hreflang: 'x-default', href: `${SITE_CONFIG.url}${currentPath}` },
+    { hreflang: 'de', href: `${SITE_CONFIG.url}/de${currentPath}` },
+    { hreflang: 'en', href: `${SITE_CONFIG.url}/en${currentPath}` },
+    { hreflang: 'x-default', href: `${SITE_CONFIG.url}/en${currentPath}` },
   ];
 }
 
@@ -56,7 +66,7 @@ export function generateOpenGraphTags(props: SEOProps) {
     { property: 'og:type', content: 'website' },
     { property: 'og:title', content: title },
     { property: 'og:description', content: description },
-    { property: 'og:locale', content: locale === 'de' ? 'de_DE' : 'ja_JP' },
+    { property: 'og:locale', content: locale === 'de' ? 'de_DE' : 'en_US' },
     { property: 'og:site_name', content: SITE_CONFIG.name },
     ...(image ? [{ property: 'og:image', content: image }] : []),
   ];

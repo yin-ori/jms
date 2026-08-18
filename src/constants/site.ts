@@ -15,6 +15,3 @@ export const SOCIAL_LINKS = {
   // twitter: 'https://twitter.com/...',
   // linkedin: 'https://linkedin.com/in/...',
 } as const;
-
-export const DEFAULT_LOCALE = 'de' as const;
-export const SUPPORTED_LOCALES = ['de', 'ja'] as const;
