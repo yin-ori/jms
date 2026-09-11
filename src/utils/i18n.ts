@@ -18,7 +18,7 @@ export const translations = {
     'nav.research_page': 'Forschung',
     'nav.writing': 'Schrift',
     'nav.blog': 'Artikel',
-    'nav.reading': 'Lesen',
+    'nav.reading': 'Lektüre',
     'nav.contact': 'Kontakt',
     'site.title': 'JM Sugawara',
     'site.description': 'Japanologie, Übersetzung & interkulturelle Brücken',
