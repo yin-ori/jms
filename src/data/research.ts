@@ -73,12 +73,12 @@ export const researchData: Record<Locale, ResearchData> = {
     ],
     researchFocus: [
       { title: 'Betrachtungen textueller Emotionen im Zuge von Erdbeben in der Tôhoku-Region', subtitle: 'seit 2022' },
-      { title: "'Corona-Katastrophe' (korona-ka) während TOKYO2020", subtitle: '2022 · veröffentlicht' },
-      { title: 'Konzeptueller Bedeutungswandel am Beispiel von ka', subtitle: '2021 · Masterarbeit' },
+      { title: "'Corona-Katastrophe' (*korona-ka*) während TOKYO2020", subtitle: '2022 · veröffentlicht' },
+      { title: 'Konzeptueller Bedeutungswandel am Beispiel von *ka*', subtitle: '2021 · Masterarbeit' },
       { title: 'Übersetzung von Zeitzeugenberichten der Atombombenüberlebenden Frau Kimura', subtitle: '2019–2020 · NET-GTAS Global Peace & Universität Bonn' },
     ],
     talks: [
-      { title: 'On Emotion Expressions in Classical Japanese (bungo)', venue: 'Tohoku University BUNGO-bun project 第10回研究会', date: '2025/02', note: 'Vortrag auf Einladung' },
+      { title: 'On Emotion Expressions in Classical Japanese (*bungo*)', venue: 'Tohoku University BUNGO-bun project 第10回研究会', date: '2025/02', note: 'Vortrag auf Einladung' },
       { title: 'Reflections on Emotive Traces in Texts', venue: '20th STaPs Augsburg / Budapest / Vienna', date: '2023/02' },
       { title: 'Vernissage zur Plakatausstellung der Atombombenabwürfe auf Hiroshima und Nagasaki', venue: 'Hiroshima-Nagasaki-Project, Universität Bonn', date: '2019/10', note: 'Beitrag auf Einladung' },
     ],
@@ -105,9 +105,9 @@ export const researchData: Record<Locale, ResearchData> = {
     translations: [
       { title: 'Nachrichten-Erfahrungen zu den Olympischen Spielen: Eine Fallstudie mit 18 Studierenden', subtitle: 'Shingo Dobashi, Hosei University · JP→DE', year: '2022' },
       { title: 'Zeugenaussagen der Atombombenüberlebenden Frau Hisako Kimura', subtitle: 'NET-GTAS Global Peace & Universität Bonn · JP↔DE', year: '2019' },
-      { title: 'Agrarwissenschaftliche Fachtexte zu amacha und ajisai', subtitle: 'Promotionsprojekt, Landwirtschaftliche Fakultät Universität Bonn · JP→DE', year: '2019' },
-      { title: '"Tosa Nikki": Übersetzungsanalyse der ersten drei Tage', subtitle: 'unpubliziert', year: '2019' },
-      { title: 'Übersetzung aus "Tsûshi no hôhô" (通史の方法)', subtitle: 'Miyachi Masato · unpubliziert', year: '2019' },
+      { title: 'Agrarwissenschaftliche Fachtexte zu *amacha* und *ajisai*', subtitle: 'Promotionsprojekt, Landwirtschaftliche Fakultät Universität Bonn · JP→DE', year: '2019' },
+      { title: '*Tosa Nikki*: Übersetzungsanalyse der ersten drei Tage', subtitle: 'unpubliziert', year: '2019' },
+      { title: 'Übersetzung aus *Tsûshi no hôhô* (通史の方法)', subtitle: 'Miyachi Masato · unpubliziert', year: '2019' },
     ],
   },
   en: {
@@ -130,12 +130,12 @@ export const researchData: Record<Locale, ResearchData> = {
     ],
     researchFocus: [
       { title: 'Reflections on textual emotions in the context of earthquakes in the Tôhoku region', subtitle: 'since 2022' },
-      { title: "'Corona Disaster' (korona-ka) during TOKYO2020", subtitle: '2022 · published' },
-      { title: 'Conceptual semantic change using the example of ka', subtitle: '2021 · Master thesis' },
+      { title: "'Corona Disaster' (*korona-ka*) during TOKYO2020", subtitle: '2022 · published' },
+      { title: 'Conceptual semantic change using the example of *ka*', subtitle: '2021 · Master thesis' },
       { title: 'Translation of eyewitness accounts of atomic bomb survivor Mrs. Kimura', subtitle: '2019–2020 · NET-GTAS Global Peace & University of Bonn' },
     ],
     talks: [
-      { title: 'On Emotion Expressions in Classical Japanese (bungo)', venue: 'Tohoku University BUNGO-bun project 第10回研究会', date: '2025/02', note: 'Invited talk' },
+      { title: 'On Emotion Expressions in Classical Japanese (*bungo*)', venue: 'Tohoku University BUNGO-bun project 第10回研究会', date: '2025/02', note: 'Invited talk' },
       { title: 'Reflections on Emotive Traces in Texts', venue: '20th STaPs Augsburg / Budapest / Vienna', date: '2023/02' },
       { title: 'Vernissage for the poster exhibition on the atomic bombings of Hiroshima and Nagasaki', venue: 'Hiroshima-Nagasaki-Project, University of Bonn', date: '2019/10', note: 'Invited contribution' },
     ],
@@ -162,9 +162,9 @@ export const researchData: Record<Locale, ResearchData> = {
     translations: [
       { title: 'News experiences of the Olympic Games: A case study with 18 students', subtitle: 'Shingo Dobashi, Hosei University · JP→DE', year: '2022' },
       { title: 'Testimonies of atomic bomb survivor Mrs. Hisako Kimura', subtitle: 'NET-GTAS Global Peace & University of Bonn · JP↔DE', year: '2019' },
-      { title: 'Agricultural science texts on amacha and ajisai', subtitle: 'PhD project, Faculty of Agriculture, University of Bonn · JP→DE', year: '2019' },
-      { title: '"Tosa Nikki": Translation analysis of the first three days', subtitle: 'unpublished', year: '2019' },
-      { title: 'Translation from "Tsûshi no hôhô" (通史の方法)', subtitle: 'Miyachi Masato · unpublished', year: '2019' },
+      { title: 'Agricultural science texts on *amacha* and *ajisai*', subtitle: 'PhD project, Faculty of Agriculture, University of Bonn · JP→DE', year: '2019' },
+      { title: '*Tosa Nikki*: Translation analysis of the first three days', subtitle: 'unpublished', year: '2019' },
+      { title: 'Translation from *Tsûshi no hôhô* (通史の方法)', subtitle: 'Miyachi Masato · unpublished', year: '2019' },
     ],
   },
 };

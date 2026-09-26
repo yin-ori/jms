@@ -14,7 +14,7 @@ keywords: ['Forschung', 'Japanologie', 'Linguistik', 'Übersetzung', 'Kognitiv']
 
 ## Vorträge
 
-### 2025/02: On Emotion Expressions in Classical Japanese (bungo)
+### 2025/02: On Emotion Expressions in Classical Japanese (*bungo*)
 Tohoku University BUNGO-bun project 第10回研究会 (Vortrag auf Einladung)
 
 ### 2023/02: Reflections on Emotive Traces in Texts
@@ -42,8 +42,8 @@ ISBN: 978-3-946114-94-9 · [Verlagsseite](https://www.ostasien-verlag.de/reihen/
 - **2022:** "Nachrichten-Erfahrungen zu den Olympischen Spielen: Eine Fallstudie mit 18 Studierenden" von Shingo Dobashi, Hosei University (Japanisch→Deutsch)
 - **2019:** Übersetzung von Zeugenaussagen der Atombombenüberlebenden Frau Hisako Kimura (NET-GTAS Global Peace & Universität Bonn) (Japanisch↔︎Deutsch)
 - **2019:** Übersetzung agrarwissenschaftlicher Fachtexte zu *amacha* und *ajisai* (Unterstützung eines Promotionsprojekts der Landwirtschaftlichen Fakultät der Universität Bonn) (Japanisch→Deutsch)
-- **2019:** "Tosa Nikki": Eine Übersetzungsanalyse der ersten drei Tage des Tagebuchs von Tosa (unpubliziert)
-- **2019:** Übersetzung aus dem Werk "Tsûshi no hôhô" (通史の方法) im Original von Miyachi Masato (unpubliziert)
+- **2019:** *Tosa Nikki*: Eine Übersetzungsanalyse der ersten drei Tage des Tagebuchs von Tosa (unpubliziert)
+- **2019:** Übersetzung aus dem Werk *Tsûshi no hôhô* (通史の方法) im Original von Miyachi Masato (unpubliziert)
 
 ## Weitere Informationen
 

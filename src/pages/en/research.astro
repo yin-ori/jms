@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { getResearchData } from '@/data/research';
+import { renderInline } from '@/utils/inline';
 
 const locale = 'en';
 const data = getResearchData(locale);
@@ -41,7 +42,7 @@ const data = getResearchData(locale);
         <div class="space-y-4">
           {data.researchFocus.map((item) => (
             <div class="item-with-border">
-              <p class="item-title">{item.title}</p>
+              <p class="item-title" set:html={renderInline(item.title)} />
               <p class="item-subtitle">{item.subtitle}</p>
             </div>
           ))}
@@ -54,7 +55,7 @@ const data = getResearchData(locale);
         <div class="space-y-4">
           {data.talks.map((item) => (
             <div class="item-with-border">
-              <p class="item-title">{item.title}</p>
+              <p class="item-title" set:html={renderInline(item.title)} />
               <p class="item-subtitle">{item.venue}</p>
               <p class="item-meta">
                 {item.date}
@@ -89,7 +90,7 @@ const data = getResearchData(locale);
         <div class="space-y-4">
           {data.translations.map((item) => (
             <div class="item-with-border">
-              <p class="item-title">{item.title}</p>
+              <p class="item-title" set:html={renderInline(item.title)} />
               <p class="item-subtitle">{item.subtitle}</p>
               <p class="item-meta">{item.year}</p>
             </div>
