@@ -93,7 +93,7 @@ export const researchData: Record<Locale, ResearchData> = {
         url: 'https://www.ostasien-verlag.de/reihen/orientierungen/or/2023.html',
       },
       {
-        title: 'Korona-ka: Das \'Corona-Unheil\' und die Olympischen Spiele',
+        title: '*Korona-ka*: Das \'Corona-Unheil\' und die Olympischen Spiele',
         book: 'Die Sommerolympiade Tōkyō 2020 und die COVID-19-Pandemie in Japan: Mediendarstellungen und Analysen',
         editors: 'Hrsg. Mamoru Itō, Harald Meyer & Takahiro Nishiyama',
         publisher: 'OSTASIEN Verlag, Gossenberg (ORIENTIERUNGEN, Themenband 2022)',
@@ -150,7 +150,7 @@ export const researchData: Record<Locale, ResearchData> = {
         url: 'https://www.ostasien-verlag.de/reihen/orientierungen/or/2023.html',
       },
       {
-        title: 'Korona-ka: Das \'Corona-Unheil\' und die Olympischen Spiele',
+        title: '*Korona-ka*: Das \'Corona-Unheil\' und die Olympischen Spiele',
         book: 'Die Sommerolympiade Tōkyō 2020 und die COVID-19-Pandemie in Japan: Mediendarstellungen und Analysen',
         editors: 'Ed. Mamoru Itō, Harald Meyer & Takahiro Nishiyama',
         publisher: 'OSTASIEN Verlag, Gossenberg (ORIENTIERUNGEN, Themenband 2022)',

@@ -32,7 +32,7 @@ Hrsg. Harald Meyer & Reinhard Zöllner. OSTASIEN Verlag, Gossenberg (ORIENTIERUN
 ISBN: 978-3-911262-05-7 · [Verlagsseite](https://www.ostasien-verlag.de/reihen/orientierungen/or/2023.html)
 
 ### 2022 — Buchbeitrag
-**"Korona-ka: Das 'Corona-Unheil' und die Olympischen Spiele"**
+**"*Korona-ka*: Das 'Corona-Unheil' und die Olympischen Spiele"**
 In: *Die Sommerolympiade „Tōkyō 2020" und die COVID-19-Pandemie in Japan: Mediendarstellungen und Analysen*
 Hrsg. Mamoru Itō, Harald Meyer & Takahiro Nishiyama. OSTASIEN Verlag, Gossenberg (ORIENTIERUNGEN, Themenband 2022).
 ISBN: 978-3-946114-94-9 · [Verlagsseite](https://www.ostasien-verlag.de/reihen/orientierungen/or/2022.html)

@@ -72,7 +72,7 @@ const data = getResearchData(locale);
         <div class="space-y-4">
           {data.publications.map((item) => (
             <div class="item-with-border">
-              <p class="item-title">{item.title}</p>
+              <p class="item-title" set:html={renderInline(item.title)} />
               <p class="item-subtitle">In: <em>{item.book}</em></p>
               <p class="item-subtitle">{item.editors} · {item.publisher}</p>
               <p class="item-meta">
