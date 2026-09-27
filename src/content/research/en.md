@@ -42,7 +42,7 @@ ISBN: 978-3-946114-94-9 · [Publisher page](https://www.ostasien-verlag.de/reihe
 - **2022:** "News Experiences of the Olympic Games: A Case Study with 18 Students" by Shingo Dobashi, Hosei University (Japanese to German)
 - **2019:** Translation of testimonies of atomic bomb survivor Mrs. Hisako Kimura (NET-GTAS Global Peace & University of Bonn) (Japanese ↔ German)
 - **2019:** Translation of agricultural scientific texts on *amacha* and *ajisai* (supporting a doctoral project at the Faculty of Agriculture, University of Bonn) (Japanese to German)
-- **2019:** *Tosa Nikki*: A translation analysis of the first three days of the Tosa diary (unpublished)
+- **2019:** *Tosa nikki*: A translation analysis of the first three days of the Tosa diary (unpublished)
 - **2019:** Translation from the work *Tsûshi no hôhô* (通史の方法) originally by Miyachi Masato (unpublished)
 
 ## Further Information

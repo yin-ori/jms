@@ -8,8 +8,8 @@ keywords: ['Forschung', 'Japanologie', 'Linguistik', 'Übersetzung', 'Kognitiv']
 ## Forschungsschwerpunkte
 
 - **seit 2022:** Betrachtungen textueller Emotionen im Zuge von Erdbeben in der Tôhoku-Region
-- **2022:** 'Corona-Katastrophe' (*korona-ka*) während TOKYO2020 (veröffentlicht)
-- **2021:** Konzeptueller Bedeutungswandel am Beispiel von *ka* (und dem Neologismus 'Corona-Katastrophe') (Masterarbeit)
+- **2022:** ‚Corona-Katastrophe‘ (*korona-ka*) während TOKYO2020 (veröffentlicht)
+- **2021:** Konzeptueller Bedeutungswandel am Beispiel von *ka* (und dem Neologismus ‚Corona-Katastrophe‘) (Masterarbeit)
 - **2019–2020:** Übersetzung von Zeitzeugenberichten der Atombombenüberlebenden Frau Kimura (NET-GTAS Global Peace & Universität Bonn)
 
 ## Vorträge
@@ -42,7 +42,7 @@ ISBN: 978-3-946114-94-9 · [Verlagsseite](https://www.ostasien-verlag.de/reihen/
 - **2022:** "Nachrichten-Erfahrungen zu den Olympischen Spielen: Eine Fallstudie mit 18 Studierenden" von Shingo Dobashi, Hosei University (Japanisch→Deutsch)
 - **2019:** Übersetzung von Zeugenaussagen der Atombombenüberlebenden Frau Hisako Kimura (NET-GTAS Global Peace & Universität Bonn) (Japanisch↔︎Deutsch)
 - **2019:** Übersetzung agrarwissenschaftlicher Fachtexte zu *amacha* und *ajisai* (Unterstützung eines Promotionsprojekts der Landwirtschaftlichen Fakultät der Universität Bonn) (Japanisch→Deutsch)
-- **2019:** *Tosa Nikki*: Eine Übersetzungsanalyse der ersten drei Tage des Tagebuchs von Tosa (unpubliziert)
+- **2019:** *Tosa nikki*: Eine Übersetzungsanalyse der ersten drei Tage des Tagebuchs von Tosa (unpubliziert)
 - **2019:** Übersetzung aus dem Werk *Tsûshi no hôhô* (通史の方法) im Original von Miyachi Masato (unpubliziert)
 
 ## Weitere Informationen
