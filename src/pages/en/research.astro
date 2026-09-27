@@ -36,6 +36,18 @@ const data = getResearchData(locale);
         </div>
       </section>
 
+      <!-- Research Management -->
+      <section class="mb-12">
+        <h2 class="section-title">{data.sections.qualifications}</h2>
+        <div class="space-y-4">
+          {data.qualifications.map((item) => (
+            <div class="item-with-border">
+              <p class="item-title">{item.title}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
       <!-- Research Focus -->
       <section class="mb-12">
         <h2 class="section-title">{data.sections.researchFocus}</h2>
