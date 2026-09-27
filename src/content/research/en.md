@@ -14,7 +14,10 @@ keywords: ['research', 'Japanese studies', 'linguistics', 'translation', 'cognit
 
 ## Presentations
 
-### 2025/02: On Emotion Expressions in Classical Japanese (bungo)
+### 2026/04: Constructing AI as Social Actor: Agency Framing in Japanese Workplace Discourse
+Workshop “Social Encounters with Artificial Others”, University of Zurich
+
+### 2025/02: On Emotion Expressions in Classical Japanese (*bungo*)
 Tohoku University BUNGO-bun project 第10回研究会 (Invited talk)
 
 ### 2023/02: Reflections on Emotive Traces in Texts
@@ -32,7 +35,7 @@ Ed. Harald Meyer & Reinhard Zöllner. OSTASIEN Verlag, Gossenberg (ORIENTIERUNGE
 ISBN: 978-3-911262-05-7 · [Publisher page](https://www.ostasien-verlag.de/reihen/orientierungen/or/2023.html)
 
 ### 2022 — Book Chapter
-**"Korona-ka: Das 'Corona-Unheil' und die Olympischen Spiele"**
+**"*Korona-ka*: Das 'Corona-Unheil' und die Olympischen Spiele"**
 In: *Die Sommerolympiade „Tōkyō 2020" und die COVID-19-Pandemie in Japan: Mediendarstellungen und Analysen*
 Ed. Mamoru Itō, Harald Meyer & Takahiro Nishiyama. OSTASIEN Verlag, Gossenberg (ORIENTIERUNGEN, Themenband 2022).
 ISBN: 978-3-946114-94-9 · [Publisher page](https://www.ostasien-verlag.de/reihen/orientierungen/or/2022.html)
@@ -42,8 +45,8 @@ ISBN: 978-3-946114-94-9 · [Publisher page](https://www.ostasien-verlag.de/reihe
 - **2022:** "News Experiences of the Olympic Games: A Case Study with 18 Students" by Shingo Dobashi, Hosei University (Japanese to German)
 - **2019:** Translation of testimonies of atomic bomb survivor Mrs. Hisako Kimura (NET-GTAS Global Peace & University of Bonn) (Japanese ↔ German)
 - **2019:** Translation of agricultural scientific texts on *amacha* and *ajisai* (supporting a doctoral project at the Faculty of Agriculture, University of Bonn) (Japanese to German)
-- **2019:** "Tosa Nikki": A translation analysis of the first three days of the Tosa diary (unpublished)
-- **2019:** Translation from the work "Tsûshi no hôhô" (通史の方法) originally by Miyachi Masato (unpublished)
+- **2019:** *Tosa nikki*: A translation analysis of the first three days of the Tosa diary (unpublished)
+- **2019:** Translation from the work *Tsûshi no hôhô* (通史の方法) originally by Miyachi Masato (unpublished)
 
 ## Further Information
 
