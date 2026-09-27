@@ -36,21 +36,6 @@ const data = getResearchData(locale);
         </div>
       </section>
 
-      <!-- Certificates -->
-      <section class="mb-12">
-        <h2 class="section-title">{data.sections.certificates}</h2>
-        <div class="grid gap-4">
-          {data.certificates.map((group) => (
-            <div class="cert-group">
-              <p class="text-warm-500 dark:text-dark-500 text-xs uppercase tracking-wide mb-2">{group.label}</p>
-              <ul class="space-y-1 text-warm-700 dark:text-dark-700 text-sm">
-                {group.items.map((item) => <li>{item}</li>)}
-              </ul>
-            </div>
-          ))}
-        </div>
-      </section>
-
       <!-- Research Focus -->
       <section class="mb-12">
         <h2 class="section-title">{data.sections.researchFocus}</h2>
@@ -108,6 +93,21 @@ const data = getResearchData(locale);
               <p class="item-title" set:html={renderInline(item.title)} />
               <p class="item-subtitle">{item.subtitle}</p>
               <p class="item-meta">{item.year}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <!-- Certificates -->
+      <section class="mb-12">
+        <h2 class="section-title">{data.sections.certificates}</h2>
+        <div class="grid gap-4">
+          {data.certificates.map((group) => (
+            <div class="cert-group">
+              <p class="text-warm-500 dark:text-dark-500 text-xs uppercase tracking-wide mb-2">{group.label}</p>
+              <ul class="space-y-1 text-warm-700 dark:text-dark-700 text-sm">
+                {group.items.map((item) => <li>{item}</li>)}
+              </ul>
             </div>
           ))}
         </div>
