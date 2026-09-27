@@ -36,13 +36,16 @@ const data = getResearchData(locale);
         </div>
       </section>
 
-      <!-- Research Management -->
+      <!-- Certificates -->
       <section class="mb-12">
-        <h2 class="section-title">{data.sections.qualifications}</h2>
-        <div class="space-y-4">
-          {data.qualifications.map((item) => (
-            <div class="item-with-border">
-              <p class="item-title">{item.title}</p>
+        <h2 class="section-title">{data.sections.certificates}</h2>
+        <div class="grid gap-4">
+          {data.certificates.map((group) => (
+            <div class="cert-group">
+              <p class="text-warm-500 dark:text-dark-500 text-xs uppercase tracking-wide mb-2">{group.label}</p>
+              <ul class="space-y-1 text-warm-700 dark:text-dark-700 text-sm">
+                {group.items.map((item) => <li>{item}</li>)}
+              </ul>
             </div>
           ))}
         </div>
@@ -136,6 +139,16 @@ const data = getResearchData(locale);
 
   :global(.dark) .item-with-border {
     border-left-color: rgba(125, 107, 162, 0.3);
+  }
+
+  .cert-group {
+    padding: 1rem;
+    background: rgba(250, 248, 245, 0.5);
+    border-radius: 0.25rem;
+  }
+
+  :global(.dark) .cert-group {
+    background: rgba(26, 24, 20, 0.5);
   }
 
   .item-title {
