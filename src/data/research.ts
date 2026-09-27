@@ -6,6 +6,11 @@ export interface AcademicItem {
   institution: string;
 }
 
+export interface CertificateGroup {
+  label: string;
+  items: string[];
+}
+
 export interface ResearchFocus {
   title: string;
   subtitle: string;
@@ -38,6 +43,7 @@ export interface ResearchData {
   pageTitle: string;
   sections: {
     academicCareer: string;
+    certificates: string;
     researchFocus: string;
     talks: string;
     publications: string;
@@ -46,6 +52,7 @@ export interface ResearchData {
   };
   moreInfoText: string;
   academicCareer: AcademicItem[];
+  certificates: CertificateGroup[];
   researchFocus: ResearchFocus[];
   talks: Talk[];
   publications: Publication[];
@@ -57,6 +64,7 @@ export const researchData: Record<Locale, ResearchData> = {
     pageTitle: 'Forschung',
     sections: {
       academicCareer: 'Akademischer Werdegang',
+      certificates: 'Zertifikate',
       researchFocus: 'Forschungsschwerpunkte',
       talks: 'Vorträge',
       publications: 'Publikationen',
@@ -70,6 +78,12 @@ export const researchData: Record<Locale, ResearchData> = {
       { title: 'Master of Arts', note: 'ausgezeichnet', institution: 'Universität Bonn, Deutschland' },
       { title: 'Special Research Student', institution: 'Tohoku University, Japan' },
       { title: 'Bachelor of Arts', institution: 'Universität Bonn, Deutschland' },
+    ],
+    certificates: [
+      {
+        label: 'Forschungsmanagement',
+        items: ['Doctorate Plus: Research Track', 'Doctorate Plus: Research Management Track'],
+      },
     ],
     researchFocus: [
       { title: 'Betrachtungen textueller Emotionen im Zuge von Erdbeben in der Tôhoku-Region', subtitle: 'seit 2022' },
@@ -115,6 +129,7 @@ export const researchData: Record<Locale, ResearchData> = {
     pageTitle: 'Research',
     sections: {
       academicCareer: 'Academic Career',
+      certificates: 'Certificates',
       researchFocus: 'Research Focus',
       talks: 'Talks',
       publications: 'Publications',
@@ -128,6 +143,12 @@ export const researchData: Record<Locale, ResearchData> = {
       { title: 'Master of Arts', note: 'with distinction', institution: 'University of Bonn, Germany' },
       { title: 'Special Research Student', institution: 'Tohoku University, Japan' },
       { title: 'Bachelor of Arts', institution: 'University of Bonn, Germany' },
+    ],
+    certificates: [
+      {
+        label: 'Research Management',
+        items: ['Doctorate Plus: Research Track', 'Doctorate Plus: Research Management Track'],
+      },
     ],
     researchFocus: [
       { title: 'Reflections on textual emotions in the context of earthquakes in the Tôhoku region', subtitle: 'since 2022' },
