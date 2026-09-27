@@ -14,6 +14,9 @@ keywords: ['研究', '日本学', '言語学', '翻訳', '認知']
 
 ## 発表
 
+### 2026年4月: Constructing AI as Social Actor: Agency Framing in Japanese Workplace Discourse
+ワークショップ「Social Encounters with Artificial Others」、チューリッヒ大学
+
 ### 2025年2月: 古典日本語（文語）における感情表現について
 東北大学 BUNGO-bun project 第10回研究会（招待講演）
 

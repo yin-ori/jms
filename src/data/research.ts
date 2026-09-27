@@ -78,6 +78,7 @@ export const researchData: Record<Locale, ResearchData> = {
       { title: 'Übersetzung von Zeitzeugenberichten der Atombombenüberlebenden Frau Kimura', subtitle: '2019–2020 · NET-GTAS Global Peace & Universität Bonn' },
     ],
     talks: [
+      { title: 'Constructing AI as Social Actor: Agency Framing in Japanese Workplace Discourse', venue: 'Workshop „Social Encounters with Artificial Others“, Universität Zürich', date: '2026/04' },
       { title: 'On Emotion Expressions in Classical Japanese (*bungo*)', venue: 'Tohoku University BUNGO-bun project 第10回研究会', date: '2025/02', note: 'Vortrag auf Einladung' },
       { title: 'Reflections on Emotive Traces in Texts', venue: '20th STaPs Augsburg / Budapest / Vienna', date: '2023/02' },
       { title: 'Vernissage zur Plakatausstellung der Atombombenabwürfe auf Hiroshima und Nagasaki', venue: 'Hiroshima-Nagasaki-Project, Universität Bonn', date: '2019/10', note: 'Beitrag auf Einladung' },
@@ -135,6 +136,7 @@ export const researchData: Record<Locale, ResearchData> = {
       { title: 'Translation of eyewitness accounts of atomic bomb survivor Mrs. Kimura', subtitle: '2019–2020 · NET-GTAS Global Peace & University of Bonn' },
     ],
     talks: [
+      { title: 'Constructing AI as Social Actor: Agency Framing in Japanese Workplace Discourse', venue: 'Workshop “Social Encounters with Artificial Others”, University of Zurich', date: '2026/04' },
       { title: 'On Emotion Expressions in Classical Japanese (*bungo*)', venue: 'Tohoku University BUNGO-bun project 第10回研究会', date: '2025/02', note: 'Invited talk' },
       { title: 'Reflections on Emotive Traces in Texts', venue: '20th STaPs Augsburg / Budapest / Vienna', date: '2023/02' },
       { title: 'Vernissage for the poster exhibition on the atomic bombings of Hiroshima and Nagasaki', venue: 'Hiroshima-Nagasaki-Project, University of Bonn', date: '2019/10', note: 'Invited contribution' },

@@ -14,6 +14,9 @@ keywords: ['research', 'Japanese studies', 'linguistics', 'translation', 'cognit
 
 ## Presentations
 
+### 2026/04: Constructing AI as Social Actor: Agency Framing in Japanese Workplace Discourse
+Workshop “Social Encounters with Artificial Others”, University of Zurich
+
 ### 2025/02: On Emotion Expressions in Classical Japanese (*bungo*)
 Tohoku University BUNGO-bun project 第10回研究会 (Invited talk)
 
