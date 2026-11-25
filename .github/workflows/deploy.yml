@@ -8,16 +8,17 @@ on:
     - cron: '0 15 * * *'
   workflow_dispatch:
 
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
 jobs:
-  build-and-deploy:
+  # Bauen und Veröffentlichen als getrennte Jobs: Im selben Job findet
+  # deploy-pages das gerade hochgeladene Artefakt gelegentlich noch nicht.
+  build:
     runs-on: ubuntu-latest
     permissions:
       contents: read
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-node@v7
@@ -28,5 +29,16 @@ jobs:
       - uses: actions/upload-pages-artifact@v5
         with:
           path: dist/
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - id: deployment
         uses: actions/deploy-pages@v5
