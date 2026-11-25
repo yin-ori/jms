@@ -7,7 +7,7 @@ publishedDate: '2026-08-18'
 modifiedDate: '2026-08-18'
 readTime: '3 Min. Lesezeit'
 author: 'JM Sugawara'
-draft: false
+draft: true
 unlisted: true
 ---
 
