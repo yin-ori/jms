@@ -62,6 +62,7 @@ const toggleId = `dark-mode-toggle-${uniqueId}`;
     localStorage.setItem('theme', theme);
   }
 
+  // @ts-ignore toggleId is injected by define:vars, unknown to astro check
   const toggle = document.getElementById(toggleId);
 
   if (toggle) {
