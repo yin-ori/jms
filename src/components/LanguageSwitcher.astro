@@ -53,10 +53,7 @@ const menuId = `language-switcher-menu-${uniqueId}`;
 </div>
 
 <script is:inline define:vars={{ buttonId, menuId }}>
-  // buttonId and menuId are injected by define:vars, unknown to astro check
-  // @ts-ignore
   const button = document.getElementById(buttonId);
-  // @ts-ignore
   const menu = document.getElementById(menuId);
 
   if (button && menu) {
